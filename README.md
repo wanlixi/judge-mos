@@ -15,3 +15,13 @@ module.exports = function() {
   return platform;
 };
 ```
+
+### npm i --save judge-mos
+
+var platform = require('judge-mos')
+
+if (platform == 'ios') {
+
+} else if (platform == 'android') {
+
+}
