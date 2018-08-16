@@ -1,6 +1,6 @@
 # mos
 
-judge mobile OS
+## judge mobile OS
 
 ```
 module.exports = function() {
@@ -16,12 +16,15 @@ module.exports = function() {
 };
 ```
 
-### npm i --save judge-mos
+## npm i --save judge-mos
 
+## use & test
+```
 var platform = require('judge-mos')
 
-if (platform == 'ios') {
-
-} else if (platform == 'android') {
-
+if (platform() == 'ios') {
+   console.log('ios');
+} else if (platform() == 'android') {
+  console.log('android');
 }
+```
