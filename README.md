@@ -20,8 +20,8 @@ module.exports = function() {
 
 var platform = require('judge-mos')
 
-if (platform == 'ios') {
-
-} else if (platform == 'android') {
-
+if (platform() == 'ios') {
+   console.log('ios');
+} else if (platform() == 'android') {
+  console.log('android');
 }
